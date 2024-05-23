@@ -3,7 +3,7 @@ testdata_dir = "testdata"
 tmp_dir = "tmp"
 
 [build]
-  args_bin = []
+  args_bin = ["serve"]
   bin = "./tmp/hugo-htmx-go-template"
   cmd = "templ generate 2> /dev/null && go build -o ./tmp/hugo-htmx-go-template server.go"
   delay = 1000

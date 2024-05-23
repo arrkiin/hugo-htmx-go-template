@@ -6,3 +6,4 @@ themes/ananke
 bin/build
 bin/develop
 resources/_gen/
+pb_data/
