@@ -1,0 +1,5 @@
+extensions:
+  decap_cms:
+    branch: pocketbase
+    publish_mode: editorial_workflow
+    local_backend: true

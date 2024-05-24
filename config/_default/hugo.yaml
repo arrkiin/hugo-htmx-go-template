@@ -1,0 +1,8 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+
+params:
+  apiBaseUrl: 'http://localhost:1314'
+
